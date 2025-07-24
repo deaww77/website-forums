@@ -9,7 +9,10 @@ function Home() {
         <h1 style={styles.title}>Welcome to Forums, {username}!</h1>
         <p style={styles.subtitle}>Join the discussion and connect with others.</p>
         <Link to="/register" style={styles.button}>
-          สมัครสมาชิก
+          Register Now
+        </Link>
+        <Link to="/login" style={styles.button}>
+            Login
         </Link>
       </header>
     </main>
