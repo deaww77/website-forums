@@ -1,13 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Register from "./pages/Register";
+
 function App() {
-  const name = "Chanon";
   return (
-    <>
-      <h1>Welcome to Forums : {name} </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-        voluptatibus.
-      </p>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/register" element={<Register />} />
+    </Routes>
   );
 }
+
 export default App;
