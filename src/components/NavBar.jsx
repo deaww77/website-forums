@@ -5,7 +5,7 @@ function Navbar() {
     <nav style={styles.navbar}>
       <h2 style={styles.logo}>Forums</h2>
       <div style={styles.links}>
-        <Link to="/" style={styles.link}>
+        <Link to="/About" style={styles.link}>
           About
         </Link>
         <Link to="/" style={styles.link}>
