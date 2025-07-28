@@ -7,12 +7,14 @@ function Home() {
     <main style={styles.container}>
       <header style={styles.header}>
         <h1 style={styles.title}>Welcome to Forums, {username}!</h1>
-        <p style={styles.subtitle}>Join the discussion and connect with others.</p>
+        <p style={styles.subtitle}>
+          Join the discussion and connect with others.
+        </p>
         <Link to="/register" style={styles.button}>
           Register Now
         </Link>
         <Link to="/login" style={styles.button}>
-            Login
+          Login
         </Link>
       </header>
     </main>
